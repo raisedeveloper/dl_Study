@@ -1,3 +1,7 @@
 
 model/lstm_model.keras
 debug.log
+flower_dataset/flower_photos/LICENSE.txt
+flower_dataset/flower_photos.tgz
+flower_dataset/flower_classification_model.h5
+model/flower_classification_model.h5
