@@ -247,5 +247,5 @@ plt.ylabel('인원 수', fontsize=12)
 
 
 # 모델 저장 (선택 사항)
-model.save('model/rnn_LSTM_pred_mentalHealth.h5')
+model.save(os.path.join(os.getcwd(), 'model', 'rnn_LSTM_pred_mentalHealth.h5'))
 print("모델이 'rnn_LSTM_pred_mentalHealth.h5' 파일로 저장되었습니다.")
